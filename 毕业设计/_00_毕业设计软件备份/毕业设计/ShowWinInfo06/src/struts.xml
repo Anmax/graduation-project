@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="showInfo" extends="struts-default">
+		<action name="showInfo" class="cn.hsoft.showInfo.action.ShowInfoAction">
+			<result name="czxt"  >/jsp/sbcj/czxt.jsp</result>
+			<result name="wjcc"  >/jsp/sbcj/wjcc.jsp</result>
+			<result name="cpu_nc">/jsp/sbcj/cpu_nc.jsp</result>
+			<result name="cpio"  >/jsp/sbcj/cpio.jsp</result>
+			<result name="wkll"  >/jsp/sbcj/wkll.jsp</result>
+			<result name="dlyh"  >/jsp/sbcj/dlyh.jsp</result>
+			<result name="yhcz"  >/jsp/sbcj/yhcz.jsp</result>
+			<result name="ztzj"  >/jsp/sbcj/ztzj.jsp</result>
+		</action>
+	</package>
+</struts>
